@@ -1,4 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro:200|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:200|Poiret+One|Anton');
+
+
+body {
+  background-color: #1c3448;
+}
+
+.container {
+  color: white;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 350px;
+  position: relative;
+  left: -20px;
+  text-align: center;
+  transform: rotate(-10deg);
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+
+.container h1 {
+  text-shadow: 10px 10px 0 black;
+}
+
+.container h1 {
+  font-size: 70px;
+}
+
+.container h3 {
+  color: coral;
+  margin-top: -2px;
+  font-size: 150px;
+  text-shadow: 10px 10px 0 lightyellow;
+}
+
+#pink {
+  color: pink;
+  text-shadow: 5px 5px 0 white;
+}
+
+#yellow {
+  color: #ffc;
+  text-shadow: 5px 5px 0 coral;
+}
 
 
 .footer {
